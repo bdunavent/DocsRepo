@@ -3,7 +3,7 @@
 -- http://www.phpmyadmin.net
 --
 -- Host: 127.0.0.1
--- Generation Time: Mar 25, 2014 at 03:47 AM
+-- Generation Time: Apr 01, 2014 at 04:49 PM
 -- Server version: 5.5.34
 -- PHP Version: 5.4.22
 
@@ -28,7 +28,7 @@ SET time_zone = "+00:00";
 
 DROP TABLE IF EXISTS `usertypes`;
 CREATE TABLE IF NOT EXISTS `usertypes` (
-  `userTypeID` int(10) unsigned NOT NULL AUTO_INCREMENT,
+  `userTypeID` int(10) NOT NULL AUTO_INCREMENT,
   `userTypeName` varchar(100) NOT NULL,
   `createDate` timestamp NOT NULL DEFAULT '0000-00-00 00:00:00',
   `updateDate` timestamp NOT NULL DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP,
